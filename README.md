@@ -19,12 +19,12 @@ Basically there are two Apis, the Users.Api and Contacts.Api
 		
 #### Contacts.Api
 - You can CRUD Contacts on the ContactController, only with Bearer Token
-
+- [`User Story`](https://github.com/andrearima/ballastlane/blob/main/docs/UserStory.md)
 
 ### Technical Notes
 	- In order to improve reusability the library Ballastlane was created, and it contains shared configurations among other stuffs like filters and simple notifications
 	- The authentication is based on JWT Bearer over header request.
-	- There is a mechanism to check where the table for users is created or not, and if it isn´t create.
+	- There is a mechanism to check where the table for users is created or not, and if it isnÂ´t create.
 	- The same for the admin default user.
 
 
