@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F531A240-ED09-4033-B1C7-F76A906B9FF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AB46B9E4-0426-4221-B692-B8FF29754CA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{7686D42A-E3FB-4DE5-AC00-1EE265CDD4DF}"
+	ProjectSection(SolutionItems) = preProject
+		docs\description.md = docs\description.md
+		README.md = README.md
+		docs\Technical Interview Exercise V3 - .NET.pdf = docs\Technical Interview Exercise V3 - .NET.pdf
+		docs\UserStory.md = docs\UserStory.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "users", "users", "{4824A4D8-380F-488E-8D9E-001CC2050A67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contacts", "contacts", "{7219E24A-9776-48D9-B215-1699494E5EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Users.Api", "src\users\Ballastlane.Users.Api\Ballastlane.Users.Api.csproj", "{F755D3B3-F17A-4FD4-A162-0B61BD52B1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Users.Domain", "src\users\Ballastlane.Users.Domain\Ballastlane.Users.Domain.csproj", "{301FB807-680B-40B3-87B8-2B4590FA7502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Users.Application", "src\users\Ballastlane.Users.Application\Ballastlane.Users.Application.csproj", "{8BEC1AA4-A67D-47EC-B6C5-BA54C3EB02EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Users.Infrastructure", "src\users\Ballastlane.Users.Infrastructure\Ballastlane.Users.Infrastructure.csproj", "{2188218F-E7AC-4A33-AC37-E1B97EEB5CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Contacts.Domain", "src\contacts\Ballastlane.Contacts.Domain\Ballastlane.Contacts.Domain.csproj", "{119AD1F4-56C3-417E-B41D-D1A9A82CE746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Contacts.Infrastructure", "src\contacts\Ballastlane.Contacts.Infrastructure\Ballastlane.Contacts.Infrastructure.csproj", "{0FE0C983-2B93-453C-A2C0-EC3840B4519E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Contacts.Api", "src\contacts\Ballastlane.Contacts.Api\Ballastlane.Contacts.Api.csproj", "{CE674661-DF9F-4894-B407-F00F584E24D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Contacts.Application", "src\contacts\Ballastlane.Contacts.Application\Ballastlane.Contacts.Application.csproj", "{F3AE5612-A885-4794-8C04-DBA1BB18CDA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{2AAFB03F-1D22-482A-AB35-E2EA58BCF639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane", "libs\Ballastlane\Ballastlane.csproj", "{B5DCFCE8-DA31-440B-89EC-008018DE8679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ballastlane.Integration.Tests", "tests\Ballastlane.Integration.Tests\Ballastlane.Integration.Tests.csproj", "{F85AA36C-AC72-4FFD-AE0E-D60EADCEC344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F755D3B3-F17A-4FD4-A162-0B61BD52B1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F755D3B3-F17A-4FD4-A162-0B61BD52B1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F755D3B3-F17A-4FD4-A162-0B61BD52B1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F755D3B3-F17A-4FD4-A162-0B61BD52B1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{301FB807-680B-40B3-87B8-2B4590FA7502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{301FB807-680B-40B3-87B8-2B4590FA7502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{301FB807-680B-40B3-87B8-2B4590FA7502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{301FB807-680B-40B3-87B8-2B4590FA7502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEC1AA4-A67D-47EC-B6C5-BA54C3EB02EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEC1AA4-A67D-47EC-B6C5-BA54C3EB02EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEC1AA4-A67D-47EC-B6C5-BA54C3EB02EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEC1AA4-A67D-47EC-B6C5-BA54C3EB02EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2188218F-E7AC-4A33-AC37-E1B97EEB5CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2188218F-E7AC-4A33-AC37-E1B97EEB5CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2188218F-E7AC-4A33-AC37-E1B97EEB5CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2188218F-E7AC-4A33-AC37-E1B97EEB5CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119AD1F4-56C3-417E-B41D-D1A9A82CE746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119AD1F4-56C3-417E-B41D-D1A9A82CE746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119AD1F4-56C3-417E-B41D-D1A9A82CE746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119AD1F4-56C3-417E-B41D-D1A9A82CE746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE0C983-2B93-453C-A2C0-EC3840B4519E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE0C983-2B93-453C-A2C0-EC3840B4519E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE0C983-2B93-453C-A2C0-EC3840B4519E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE0C983-2B93-453C-A2C0-EC3840B4519E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE674661-DF9F-4894-B407-F00F584E24D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE674661-DF9F-4894-B407-F00F584E24D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE674661-DF9F-4894-B407-F00F584E24D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE674661-DF9F-4894-B407-F00F584E24D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3AE5612-A885-4794-8C04-DBA1BB18CDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3AE5612-A885-4794-8C04-DBA1BB18CDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3AE5612-A885-4794-8C04-DBA1BB18CDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3AE5612-A885-4794-8C04-DBA1BB18CDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DCFCE8-DA31-440B-89EC-008018DE8679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DCFCE8-DA31-440B-89EC-008018DE8679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DCFCE8-DA31-440B-89EC-008018DE8679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DCFCE8-DA31-440B-89EC-008018DE8679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85AA36C-AC72-4FFD-AE0E-D60EADCEC344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85AA36C-AC72-4FFD-AE0E-D60EADCEC344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85AA36C-AC72-4FFD-AE0E-D60EADCEC344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85AA36C-AC72-4FFD-AE0E-D60EADCEC344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4824A4D8-380F-488E-8D9E-001CC2050A67} = {F531A240-ED09-4033-B1C7-F76A906B9FF7}
+		{7219E24A-9776-48D9-B215-1699494E5EFE} = {F531A240-ED09-4033-B1C7-F76A906B9FF7}
+		{F755D3B3-F17A-4FD4-A162-0B61BD52B1F0} = {4824A4D8-380F-488E-8D9E-001CC2050A67}
+		{301FB807-680B-40B3-87B8-2B4590FA7502} = {4824A4D8-380F-488E-8D9E-001CC2050A67}
+		{8BEC1AA4-A67D-47EC-B6C5-BA54C3EB02EE} = {4824A4D8-380F-488E-8D9E-001CC2050A67}
+		{2188218F-E7AC-4A33-AC37-E1B97EEB5CD9} = {4824A4D8-380F-488E-8D9E-001CC2050A67}
+		{119AD1F4-56C3-417E-B41D-D1A9A82CE746} = {7219E24A-9776-48D9-B215-1699494E5EFE}
+		{0FE0C983-2B93-453C-A2C0-EC3840B4519E} = {7219E24A-9776-48D9-B215-1699494E5EFE}
+		{CE674661-DF9F-4894-B407-F00F584E24D5} = {7219E24A-9776-48D9-B215-1699494E5EFE}
+		{F3AE5612-A885-4794-8C04-DBA1BB18CDA0} = {7219E24A-9776-48D9-B215-1699494E5EFE}
+		{B5DCFCE8-DA31-440B-89EC-008018DE8679} = {2AAFB03F-1D22-482A-AB35-E2EA58BCF639}
+		{F85AA36C-AC72-4FFD-AE0E-D60EADCEC344} = {AB46B9E4-0426-4221-B692-B8FF29754CA1}
+	EndGlobalSection
+EndGlobal
